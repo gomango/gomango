@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,53 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App {
+  /* font-family: 'Quicksand', sans-serif; */
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: 'Righteous', cursive;
+  background-color: #f5f4f4;
+  color: #00303f;
+}
+
+.display-4 {
+  color: #cdac81;
+  /* font-family: 'Abril Fatface', cursive; */
+  /* text-shadow: 1px 1px 2px black; */
+  font-family: 'Righteous', cursive;
+  /* font-family: 'Chonburi', cursive; */
+}
+
+i {
+  color: #cdac81;
+}
+
+.background-image {
+  /* background-image: url('./DSC_0771.JPG'); */
+  height: 90vh;
+  background-attachment: static;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-link {
+  color: white;
+}
+
+/* .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} */
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.nav-link {
+  color: #cdac81;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 25px;
 }
