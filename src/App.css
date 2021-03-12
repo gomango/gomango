@@ -37,24 +37,41 @@
   }
 } */
 
+/* Navy Blue: #0F1626
+Leather: #AB987A
+Coral: #FF5330
+Eggshell: #F5F5F5 */
+
 .App {
   /* font-family: 'Quicksand', sans-serif; */
   /* font-family: 'Ubuntu', sans-serif; */
-  font-family: 'Righteous', cursive;
-  background-color: #f5f4f4;
-  color: #00303f;
+  /* font-family: 'Righteous', cursive; */
+  font-family: "Poppins", sans-serif;
+  /* background-color: #e7e9f0;
+  color: #3f3f3f; */
+  background-color: #f5f5f5;
+  color: #0f1626;
 }
 
 .display-4 {
-  color: #cdac81;
+  /* color: black; */
   /* font-family: 'Abril Fatface', cursive; */
   /* text-shadow: 1px 1px 2px black; */
-  font-family: 'Righteous', cursive;
+  /* font-family: "Righteous", cursive; */
   /* font-family: 'Chonburi', cursive; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
 }
 
+/* h1.display-4:hover {
+  border-bottom: solid 5px #ffdf6c;
+  color: #3f3f3f;
+} */
+
 i {
-  color: #cdac81;
+  /* color: #e7e9f0; */
+  color: #ab987a;
 }
 
 .background-image {
@@ -77,11 +94,87 @@ i {
 } */
 
 h1 {
-  font-family: 'Abril Fatface', cursive;
+  /* font-family: "Abril Fatface", cursive; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  /* border-bottom: solid 1px #ffdf6c; */
+  border-bottom: solid 1px #1d1952;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .nav-link {
-  color: #cdac81;
-  font-family: 'Abril Fatface', cursive;
+  /* color: #202020; */
+  /* font-family: "Abril Fatface", cursive; */
+  /* color: #3f3f3f; */
+  color: #0f1626;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
   font-size: 25px;
+}
+
+.nav-link:hover {
+  /* border-bottom: solid 5px #ffdf6c; */
+  /* border-bottom: solid 5px #051747; */
+  border-bottom: solid 5px #ab987a;
+  color: #3f3f3f;
+}
+
+.logo {
+  width: 250px;
+}
+
+.footer {
+  /* background-color: #ffdf6c; */
+  /* background-color: #051747;
+  color: white; */
+  background-color: #0f1626;
+  color: #f5f5f5;
+}
+
+.hero-image {
+  background-image: url("./images/DSC_0771\ copy.JPG");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* a:link {
+  color: #3f3f3f;
+  text-decoration: none;
+} */
+
+a:hover {
+  text-decoration: underline;
+}
+
+.link-pages {
+  color: #3f3f3f;
+  /* border: 5px solid #ffdf6c;
+  padding: 8px; */
+}
+
+.link-pages:hover {
+  /* border-bottom: solid 5px #ffdf6c; */
+  border-bottom: solid 5px #051747;
+  color: #3f3f3f;
+  text-decoration: none;
+}
+
+/* #button-more:hover {
+  border-bottom: solid 5px #ffdf6c;
+  color: #3f3f3f;
+  text-decoration: none;
+} */
+
+a:link {
+  color: #f5f5f5;
 }

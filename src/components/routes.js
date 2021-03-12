@@ -1,9 +1,10 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-import MoreServices from './moreServices';
-import MorePortfolio from './morePortfolio';
-import App from '../App';
+import MoreServices from "./moreServices";
+import MorePortfolio from "./morePortfolio";
+import WeddingPhoto from "./wedding-photo";
+import App from "../App";
 
 export default function Routes() {
   return (
@@ -19,6 +20,9 @@ export default function Routes() {
           <li>
             <Link to="/portfolio">Portfolio</Link>
           </li>
+          <li>
+            <Link to="/wedding-photo">Wedding Photo</Link>
+          </li>
         </ul>
 
         <hr />
@@ -32,6 +36,9 @@ export default function Routes() {
           </Route>
           <Route path="/portfolio">
             <MorePortfolio />
+          </Route>
+          <Route path="/wedding-photo">
+            <WeddingPhoto />
           </Route>
         </Switch>
       </div>

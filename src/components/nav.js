@@ -1,39 +1,41 @@
-import React from 'react';
+import React from "react";
 
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   NavLink,
-} from 'react-router-dom';
+} from "react-router-dom";
 
-import MoreServices from './moreServices';
-import MorePortfolio from './morePortfolio';
-import Home from './home';
-import Contact from './contact';
+import MoreServices from "./moreServices";
+import MorePortfolio from "./morePortfolio";
+import Home from "./home";
+import Contact from "./contact";
+import WeddingPhoto from "./wedding-photo";
 
-import Routes from './routes';
+import Routes from "./routes";
 
 function Nav() {
   return (
     <Router>
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark d-flex justify-content-between">
+          <a className="navbar-brand" href="#">
+            <img className="img-fluid" src="/logo-sm.png" />
+          </a>
           <NavLink className="nav-link mr-3 " to="/">
-            Home
+            HOME
           </NavLink>
 
           <NavLink className="nav-link mr-3 " to="/portfolio">
-            Portfolio
+            PORTFOLIO
           </NavLink>
-          <a className="navbar-brand" href="#">
-            <img className="img-fluid" src="/logo-1.jpg" />
-          </a>
+
           <NavLink className="nav-link mr-3 " to="/services">
-            Services
+            SERVICES
           </NavLink>
           <NavLink className="nav-link mr-3 " to="/contactus">
-            Contact
+            CONTACT
           </NavLink>
         </nav>
         <Switch>
@@ -41,6 +43,7 @@ function Nav() {
           <Route exact path="/portfolio" component={MorePortfolio} />
           <Route exact path="/services" component={MoreServices} />
           <Route exact path="/contactus" component={Contact} />
+          <Route exact path="/wedding-photo" component={WeddingPhoto} />
         </Switch>
       </div>
     </Router>

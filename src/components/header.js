@@ -1,12 +1,11 @@
-import React from 'react';
+import React from "react";
+import Nav from "./nav";
 
 function Header() {
   return (
-    <div className="mb-5">
-      <div className="container-fluid">
-        <div className="row  no-gutters">
-          <img className="img-fluid" src="/background.jpg" />
-        </div>
+    <div className="container-fluid mb-5">
+      <div>
+        <img className="img-fluid" src="/background.jpg" />
       </div>
     </div>
   );
