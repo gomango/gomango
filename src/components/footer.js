@@ -8,7 +8,10 @@ function Footer() {
       <div className="container">
         <div className="row justify-content-start mt-5">
           <div className="col col-sm-4 my-5">
-            <img className="img-fluid my-5" src="/white-logo.png" />
+            <img
+              className="img-fluid my-5"
+              src="https://www.dropbox.com/s/ra2dpzx2j68j0br/footer-logo.png?dl=0"
+            />
 
             <p>
               <strong>Email: </strong>
