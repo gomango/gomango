@@ -1,30 +1,35 @@
 import React from "react";
-import ReactPlayer from "react-player";
 
 function About() {
   return (
-    <div className="container">
-      <h1 class="display-4">OUR WORK</h1>
+    <div className="container about my-3">
+      <p className="lead">
+        Hello there! We are GoManGo Studio. Your go-to professional events team
+        that is working on the other side of the lens.
+      </p>
       <div className="row align-items-center justify-content-center">
-        {/* <ReactPlayer
-            url="https://www.youtube.com/watch?v=PwPQILQyAPg&feature=youtu.be"
-            fluid={false}
-            width={1280}
-            height={720}
-          /> */}
-        <iframe
-          src="https://player.vimeo.com/video/504626099"
-          title="test"
-          width="1100"
-          height="720"
-          frameborder="0"
-          allow="autoplay; fullscreen; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-
-        {/* <iframe src="https://player.vimeo.com/video/504626099" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/504626099">NYC vibes 2021</a> from <a href="https://vimeo.com/user129958158">GoManGo Studio</a> on <a href="https://vimeo.com">Vimeo</a>.</p> */}
+        <div className="col-1">
+          <img src="/header.png" className="img-fluid" />
+        </div>
+        <div className="col-10 lead">
+          <p>
+            For business owners, we are offering structured and unique
+            promotional video production and photo services, including aerial,
+            real estate, and any other event coverage.
+          </p>
+          <p>
+            For private clients, we are here to make your most important day
+            ever (proposal, wedding, birthday, or any promo for you) very
+            special and stress-free. We are able to provide photographers,
+            videographers, make-up artists, DJ's and a whole group of
+            professionals for any event you might have. 
+          </p>
+        </div>
       </div>
+      <p className="lead">
+        At GoManGo Studio we do not only make unique content but we also build a
+        long-term relationship with our clients.
+      </p>
     </div>
   );
 }

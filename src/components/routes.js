@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-import MoreServices from "./moreServices";
-import MorePortfolio from "./morePortfolio";
-import WeddingPhoto from "./wedding-photo";
-import App from "../App";
+import ServicesList from "./servicesList";
+import VideoPortfolio from "./videoPortfolio";
+import PhotoPortfolio from "./photoPortfolio";
+// import App from "../App";
 
 export default function Routes() {
   return (
@@ -15,13 +15,13 @@ export default function Routes() {
             <Link to="/">Home</Link>
           </li> */}
           <li>
-            <Link to="/services">Services</Link>
+            <Link to="/servicesList">Services</Link>
           </li>
           <li>
-            <Link to="/portfolio">Portfolio</Link>
+            <Link to="/video">Video</Link>
           </li>
           <li>
-            <Link to="/wedding-photo">Wedding Photo</Link>
+            <Link to="/photo">Photo</Link>
           </li>
         </ul>
 
@@ -32,13 +32,13 @@ export default function Routes() {
             <App />
           </Route> */}
           <Route path="/services">
-            <MoreServices />
+            <ServicesList />
           </Route>
-          <Route path="/portfolio">
-            <MorePortfolio />
+          <Route path="/video">
+            <VideoPortfolio />
           </Route>
-          <Route path="/wedding-photo">
-            <WeddingPhoto />
+          <Route path="/photo">
+            <PhotoPortfolio />
           </Route>
         </Switch>
       </div>

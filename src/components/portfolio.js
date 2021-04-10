@@ -1,32 +1,33 @@
 import React from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+
+import SectionTitle from "./sectionTitle";
 
 function Portfolio() {
   return (
     <div className="container mt-5">
-      <h1 class="display-4 my-5">PORTFOLIO</h1>
+      <SectionTitle title="PORTFOLIO" />
+
       <div className="row align-items-center">
-        <div className="col">
+        <div className="col-sm-6">
           <img className="img-fluid" src="/video-img.png" />
         </div>
         <div className="col">
           <p className="lead">
-            Sed turpis purus, ultrices a maximus sit amet, viverra vel sem.
-            Nulla ultricies elit sit amet risus cursus facilisis. Curabitur
-            iaculis pulvinar varius. Pellentesque efficitur pellentesque
-            ultricies.
+            Memories fade. However, you can always relive your favorite moments
+            with our carefully documented videos.
           </p>
         </div>
       </div>
       <div className="row justify-content-end">
-        <Link to="/portfolio" className="link-pages">
+        <Link to="/video" className="link-pages">
           <h2 id="button-more">SEE MORE WEDDING VIDEOS</h2>
         </Link>
       </div>
       <div className="row align-items-center my-5">
-        <div className="col">
+        <div className="col-sm-6">
           <p className="lead">
-            We will do everything to cathc every moment of your special day.
+            We will do everything to catch every moment of your special day.
           </p>
         </div>
         <div className="col">
@@ -34,7 +35,7 @@ function Portfolio() {
         </div>
       </div>
       <div className="row justify-content-start">
-        <Link to="/wedding-photo" className="link-pages">
+        <Link to="/photo" className="link-pages">
           <h2 id="button-more">SEE MORE WEDDING PHOTOS</h2>
         </Link>
       </div>

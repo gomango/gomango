@@ -1,23 +1,20 @@
-import React from 'react';
+import React from "react";
 
-import Media from './media';
-import Footer from './footer';
-import Header from './header';
-import Nav from './nav';
-import About from './about';
-import Services from './services';
-import Portfolio from './portfolio';
-import Routes from './routes';
+import Header from "./header";
+import HomeReel from "./homeReel";
+import Services from "./services";
+import Portfolio from "./portfolio";
+
+import About from "./about";
 
 function Home() {
   return (
     <div>
       <Header />
+      <HomeReel />
       <About />
       <Portfolio />
       <Services />
-      {/* <Footer />
-      <Media /> */}
     </div>
   );
 }

@@ -7,10 +7,10 @@ function ContactUs() {
 
     emailjs
       .sendForm(
-        "gmail",
-        "template_pf5d25q",
+        "service_10lf8mj",
+        "template_amnzk57",
         e.target,
-        "user_HZm5zsACgTwgia3rB5dzQ"
+        "user_xxd8peTqtEGe05vd1LtJu"
       )
       .then(
         (result) => {
@@ -20,6 +20,8 @@ function ContactUs() {
           console.log(error.text);
         }
       );
+
+    e.target.reset();
   }
   return (
     <div className="container">
@@ -60,8 +62,11 @@ function ContactUs() {
           </form>
         </div>
         <div className="col-sm-6 mb-4">
-          <p>Email: gomango.studio@gmail.com</p>
-          <p>Phone: 123-345-7890</p>
+          <strong>Email: </strong>
+          <a href="mailto:gomango.studio@gmail.com" id="link">
+            gomango.studio@gmail.com
+          </a>
+
           <div className="row contact-icons ">
             <a
               href="https://www.instagram.com/gomango.studio/"
