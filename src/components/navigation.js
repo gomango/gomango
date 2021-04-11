@@ -17,8 +17,9 @@ import PhotoPortfolio from "./photoPortfolio";
 
 function Navigation() {
   return (
+     <div className='container'>
     <Router>
-    <div className=''>
+   
     <p>test1</p>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <NavLink className="navbar-brand" to="/">
@@ -62,8 +63,9 @@ function Navigation() {
         <Route exact path="/services" component={ServicesList} />
         <Route exact path="/contactus" component={Contact} />
       </Switch>
-    </div>
+  
     </Router>
+      </div>
   );
 }
 
