@@ -23,7 +23,7 @@ function EventsSection(props) {
   console.log(videoURL);
   return (
     <>
-      <SectionTitle title={"Events/Promos"} />
+      <SectionTitle title={"Events | Promos"} />
       <div className="row">
         {videos.map((video) => (
           <div className="col-sm-3 my-1">
