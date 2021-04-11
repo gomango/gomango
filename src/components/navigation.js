@@ -18,8 +18,8 @@ import PhotoPortfolio from "./photoPortfolio";
 function Navigation() {
   return (
     <Router>
-    <div className='container-fluid'>
-    <p>test1</p>
+    <div className='container'>
+    <p>test</p>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <NavLink className="navbar-brand" to="/">
           <img className="img-fluid" src="./logo/header-logo.png" />
