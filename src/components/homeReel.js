@@ -7,7 +7,7 @@ function HomeReel() {
       <SectionTitle title={"OUR WORK"} />
       <div className="vimeo row justify-content-center">
         <iframe
-          src="https://player.vimeo.com/video/504626099"
+          src="https://player.vimeo.com/video/531407800"
           title="test"
           frameborder="0"
           fluid={false}
