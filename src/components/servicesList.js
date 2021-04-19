@@ -6,7 +6,7 @@ function ServicesList() {
   return (
     <div className="container mt-5 mb-5">
       <SectionTitle title={"SERVICES"} />
-      <div className="row">
+      <div className="row mb-5">
         <div className="col">
           <p>Our wide range of services includes following: </p>
 
