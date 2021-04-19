@@ -3,7 +3,7 @@ import ReactBootstrap, { Container } from "react-bootstrap";
 
 function Header() {
   return (
-    <Container fluid>
+    <Container>
       <img className="img-fluid" src="/background.jpg" />
     </Container>
     // <div className="mb-5">
