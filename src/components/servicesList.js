@@ -10,7 +10,7 @@ function ServicesList() {
         <div className="col my-5">
           <p>Our wide range of services includes following: </p>
 
-          <ul>
+          <ul className='mb-5'>
             <li>Full coverage of your event</li>
             <li>Videographers</li>
             <li>Photographers</li>
@@ -29,6 +29,7 @@ function ServicesList() {
             <li>RAW version</li>
           </ul>
         </div>
+    <div className='row'></div>
       </div>
       {/* If you would like to learn more please
       <span>
