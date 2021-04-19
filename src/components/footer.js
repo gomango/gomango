@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="footer fixed-bottom">
+    <div className="footer">
       <div className="container">
         <div className="row justify-content-start mt-5">
           <div className="col col-sm-4 my-5">
