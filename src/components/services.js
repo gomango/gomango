@@ -12,7 +12,10 @@ function Services() {
         happy to provide a consultation or clarify any questions you might have.
       </p>
       <div className="d-flex justify-content-start">
-        <LinkButton link="/services" title="LEARN MORE" />
+               {/* <LinkButton link="/services" title="LEARN MORE" /> */}
+        <Button href="/services" variant="outline-dark">
+          LEARN MORE
+        </Button>
       </div>
     </div>
   );
