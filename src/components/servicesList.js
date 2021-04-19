@@ -4,7 +4,7 @@ import SectionTitle from "./sectionTitle";
 
 function ServicesList() {
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 mb-5">
       <SectionTitle title={"SERVICES"} />
       <div className="row">
         <div className="col">
@@ -20,7 +20,7 @@ function ServicesList() {
         </div>
         <div className="col">
           <p>Depending on the package you will receive: </p>
-          <ul>
+          <ul className='mb-5'>
             <li>Short promo video</li>
             <li>Video highlights</li>
             <li>Retouched photos</li>
