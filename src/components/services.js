@@ -13,8 +13,8 @@ function Services() {
       </p>
       <div className="d-flex justify-content-start">
                {/* <LinkButton link="/services" title="LEARN MORE" /> */}
-        <Button href="/services" variant="outline-dark">
-          LEARN MORE
+        <Button variant="outline-dark">
+          <Link to='/services'>Services</Link>
         </Button>
       </div>
     </div>
