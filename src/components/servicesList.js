@@ -7,7 +7,7 @@ function ServicesList() {
     <div className="container mt-5 mb-5">
       <SectionTitle title={"SERVICES"} />
       <div className="row mb-5">
-        <div className="col">
+        <div className="col my-5">
           <p>Our wide range of services includes following: </p>
 
           <ul>
@@ -18,7 +18,7 @@ function ServicesList() {
             <li>Make-up artist</li>
           </ul>
         </div>
-        <div className="col">
+        <div className="col my-5">
           <p>Depending on the package you will receive: </p>
           <ul className='mb-5'>
             <li>Short promo video</li>
