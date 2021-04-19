@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import SectionTitle from "./sectionTitle";
+import LinkButton from "./linkButton";
 
 function Portfolio() {
   return (
@@ -20,9 +21,10 @@ function Portfolio() {
         </div>
       </div>
       <div className="row justify-content-end">
-        <Link to="/video" className="link-pages">
+        <LinkButton link="/video" title="SEE MORE WEDDING VIDEOS" />
+        {/* <Link to="/video" className="link-pages">
           <h2 id="button-more">SEE MORE WEDDING VIDEOS</h2>
-        </Link>
+        </Link> */}
       </div>
       <div className="row align-items-center my-5">
         <div className="col-sm-6">
@@ -35,9 +37,10 @@ function Portfolio() {
         </div>
       </div>
       <div className="row justify-content-start">
-        <Link to="/photo" className="link-pages">
+        <LinkButton link="/photo" title="SEE MORE WEDDING PHOTOS" />
+        {/* <Link to="/photo" className="link-pages">
           <h2 id="button-more">SEE MORE WEDDING PHOTOS</h2>
-        </Link>
+        </Link> */}
       </div>
       {/* <div class="card-deck">
         <div class="card shadow-sm p-3 mb-5 bg-white rounded">

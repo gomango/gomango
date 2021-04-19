@@ -23,9 +23,9 @@ i {
   background-size: cover;
 }
 
-.nav-link {
+/* .nav-link {
   color: white;
-}
+} */
 
 h1 {
   font-family: "Poppins", sans-serif;
@@ -50,7 +50,7 @@ h2 {
 
 .nav-link:hover {
   border-bottom: solid 5px #ab987a;
-  color: #3f3f3f;
+  color: #0f1626;
 }
 
 .logo {

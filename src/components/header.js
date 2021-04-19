@@ -1,12 +1,16 @@
 import React from "react";
+import ReactBootstrap, { Container } from "react-bootstrap";
 
 function Header() {
   return (
-    <div className="mb-5">
-      <div>
-        <img className="img-fluid" src="/background.jpg" />
-      </div>
-    </div>
+    <Container fluid>
+      <img className="img-fluid" src="/background.jpg" />
+    </Container>
+    // <div className="mb-5">
+    //   <div>
+    //
+    //   </div>
+    // </div>
   );
 }
 

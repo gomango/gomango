@@ -30,10 +30,10 @@ function ServicesList() {
           </ul>
         </div>
       </div>
-      If you would like to learn more please
+      {/* If you would like to learn more please
       <span>
         <Link to="/contactus"> CONTACT US</Link>
-      </span>
+      </span> */}
     </div>
   );
 }

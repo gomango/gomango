@@ -27,7 +27,7 @@ function ContactUs() {
     <div className="container">
       <h1 className="my-5">GET IN TOUCH</h1>
       <div className="row">
-        <div className="col-sm-6">
+        <div className="col-sm-6 mb-3">
           <form onSubmit={sendEmail}>
             <div className="row">
               <div className="col">
@@ -63,11 +63,8 @@ function ContactUs() {
         </div>
         <div className="col-sm-6 mb-4">
           <strong>Email: </strong>
-          <a href="mailto:gomango.studio@gmail.com" id="link">
-            gomango.studio@gmail.com
-          </a>
-
-          <div className="row contact-icons ">
+          gomango.studio@gmail.com
+          <div className="row contact-icons  mt-3 ">
             <a
               href="https://www.instagram.com/gomango.studio/"
               target="_blank"

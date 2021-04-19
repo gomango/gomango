@@ -2,18 +2,20 @@ import { Divider } from "@material-ui/core";
 import React from "react";
 import Media from "./media";
 
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <div className="footer">
       <div className="container">
         <div className="row justify-content-start mt-5">
           <div className="col col-sm-4 my-5">
-            <img className="img-fluid my-5" src="./logo/footer-logo.png" />
+            <Link to="/">
+              <img className="img-fluid my-5" src="./logo/footer-logo.png" />
+            </Link>
             <p>
               <strong>Email: </strong>
-              <a href="mailto:gomango.studio@gmail.com">
-                gomango.studio@gmail.com
-              </a>
+              gomango.studio@gmail.com
             </p>
             {/* <p>
               <strong>Phone:</strong> 123-345-7890
