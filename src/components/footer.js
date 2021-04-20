@@ -17,14 +17,8 @@ function Footer() {
               <strong>Email: </strong>
               gomango.studio@gmail.com
             </p>
-            {/* <p>
-              <strong>Phone:</strong> 123-345-7890
-            </p> */}
           </div>
         </div>
-        {/* <div className="row justify-content-end text-light">
-          <Media />
-        </div> */}
       </div>
     </div>
   );

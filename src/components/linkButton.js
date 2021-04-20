@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function LinkButton(props) {
   return (
-    <Button href={props.link} variant="outline-dark">
+    <Button className="nav-btn" href={props.link} variant="outline-dark">
       {props.title}
     </Button>
 
