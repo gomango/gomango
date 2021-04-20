@@ -4,13 +4,13 @@ import SectionTitle from "./sectionTitle";
 
 function ServicesList() {
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 mb-5">
       <SectionTitle title={"SERVICES"} />
-      <div className="row">
-        <div className="col">
+      <div className="row mb-5">
+        <div className="col my-5">
           <p>Our wide range of services includes following: </p>
 
-          <ul>
+          <ul className='mb-5'>
             <li>Full coverage of your event</li>
             <li>Videographers</li>
             <li>Photographers</li>
@@ -18,9 +18,9 @@ function ServicesList() {
             <li>Make-up artist</li>
           </ul>
         </div>
-        <div className="col">
+        <div className="col my-5">
           <p>Depending on the package you will receive: </p>
-          <ul>
+          <ul className='mb-5'>
             <li>Short promo video</li>
             <li>Video highlights</li>
             <li>Retouched photos</li>
@@ -29,6 +29,7 @@ function ServicesList() {
             <li>RAW version</li>
           </ul>
         </div>
+    <div className='row'></div>
       </div>
       {/* If you would like to learn more please
       <span>
