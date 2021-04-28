@@ -7,7 +7,7 @@ import FashionSection from "./fashionSection";
 
 function VideoPortfolio() {
   return (
-    <div className="container-fluid mt-5">
+    <div className="container mt-5">
       <WeddingsSection />
       <EventsSection />
       <MusicSection />

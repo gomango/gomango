@@ -1,66 +1,48 @@
-import React, { useState } from "react";
-import FsLightbox from "fslightbox-react";
+import React, { useState, useCallback } from "react";
+import Gallery from "react-photo-gallery";
+import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "./media-links/photos";
-
 import SectionTitle from "./sectionTitle";
 
 function PhotoPortfolio() {
-  // if toggler is updated when lightbox is closed it will open it
-  // if toggler is updated when lightbox is opened it will close it
-  const [toggler, setToggler] = useState(false);
+  const [currentImage, setCurrentImage] = useState(0);
+  const [viewerIsOpen, setViewerIsOpen] = useState(false);
+
+  const openLightbox = useCallback((event, { photo, index }) => {
+    setCurrentImage(index);
+    setViewerIsOpen(true);
+  }, []);
+
+  const closeLightbox = () => {
+    setCurrentImage(0);
+    setViewerIsOpen(false);
+  };
 
   return (
-    <>
-      <div className="container">
-        <SectionTitle title={"Weddings | Love Stories | Elopements"} />
-        <div className="row">
-          {photos.map((photo) => (
-            <div className="col-sm-3 my-3">
-              <img
-                src={photo.src}
-                className="img-fluid"
-                onClick={() => setToggler(!toggler)}
-                alt="wedding-images"
-              />
-            </div>
-          ))}
-        </div>
+    <div className="container">
+      <SectionTitle title={"Weddings | Love Stories | Elopements"} />
+      <div className="photo">
+        <Gallery photos={photos} onClick={openLightbox} />
       </div>
 
-      {/* <button onClick={() => setToggler(!toggler)}>Toggle Lightbox</button> */}
-      <FsLightbox
-        toggler={toggler}
-        sources={[
-          "/wedding_img/wed_img_3.jpg",
-          "/wedding_img/wed_img_4.jpg",
-          "/wedding_img/wed_img_5.jpg",
-          "/wedding_img/wed_img_6.jpg",
-          "/wedding_img/wed_img_7.jpg",
-          "/wedding_img/wed_img_8.jpg",
-          "/wedding_img/wed_img_9.jpg",
-          "/wedding_img/wed_img_10.jpg",
-          "/wedding_img/wed_img_11.jpg",
-          "/wedding_img/wed_img_12.jpg",
-          "/wedding_img/wed_img_13.jpg",
-          "/wedding_img/wed_img_14.jpg",
-          "/wedding_img/wed_img_16.jpg",
-          "/wedding_img/wed_img_18.jpg",
-          "/wedding_img/wed_img_19.jpg",
-          "/wedding_img/wed_img_20.jpg",
-          "/wedding_img/wed_img_21.jpg",
-          "/wedding_img/wed_img_22.jpg",
-          "/wedding_img/wed_img_23.jpg",
-          "/wedding_img/wed_img_24.jpg",
-          "/wedding_img/wed_img_27.jpg",
-          "/wedding_img/wed_img_15.jpg",
-          "/wedding_img/wed_img_1.jpg",
-          "/wedding_img/wed_img_2.jpg",
-          "/wedding_img/wed_img_25.jpg",
-          "/wedding_img/wed_img_26.jpg",
-        ]}
-      />
-    </>
+      <ModalGateway>
+        {viewerIsOpen ? (
+          <Modal onClose={closeLightbox}>
+            <Carousel
+              currentIndex={currentImage}
+              views={photos.map((x) => ({
+                ...x,
+                srcset: x.srcSet,
+                caption: x.title,
+              }))}
+            />
+          </Modal>
+        ) : null}
+      </ModalGateway>
+    </div>
   );
 }
 
 export default PhotoPortfolio;
+
+// render(<App />, document.getElementById("app"));
