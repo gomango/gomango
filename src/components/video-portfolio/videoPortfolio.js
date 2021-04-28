@@ -2,16 +2,16 @@ import React from "react";
 
 import WeddingsSection from "./weddingSection";
 import EventsSection from "./eventsSection";
-import PromoSection from "./promoSection";
-import ShortSection from "./shortSection";
+import MusicSection from "./musicSection";
+import FashionSection from "./fashionSection";
 
 function VideoPortfolio() {
   return (
-    <div className="container">
+    <div className="container-fluid mt-5">
       <WeddingsSection />
       <EventsSection />
-      <PromoSection />
-      <ShortSection />
+      <MusicSection />
+      <FashionSection />
     </div>
   );
 }

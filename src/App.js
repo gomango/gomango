@@ -2,25 +2,18 @@ import "./App.css";
 
 import Footer from "./components/footer";
 import Nav from "./components/nav";
-
 import ServicesList from "./components/servicesList";
-import VideoPortfolio from "./components/videoPortfolio";
+import VideoPortfolio from "./components/video-portfolio/videoPortfolio";
 import Home from "./components/home";
 import Contact from "./components/contact";
 import PhotoPortfolio from "./components/photoPortfolio";
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  NavLink,
-} from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        {/* <Navigation /> */}
         <Nav />
       </div>
 

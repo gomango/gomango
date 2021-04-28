@@ -1,4 +1,5 @@
 import React from "react";
+import SectionTitle from "./sectionTitle";
 import emailjs from "emailjs-com";
 
 function ContactUs() {
@@ -25,9 +26,9 @@ function ContactUs() {
   }
   return (
     <div className="container">
-      <h1 className="my-5">GET IN TOUCH</h1>
-      <div className="row">
-        <div className="col-sm-6 mb-3">
+      <SectionTitle title={"GET IN TOUCH"} />
+      <div className="row my-5">
+        <div className="col-sm-6 mb-5">
           <form onSubmit={sendEmail}>
             <div className="row">
               <div className="col">
@@ -50,7 +51,7 @@ function ContactUs() {
 
             <textarea
               type="text"
-              className="form-control mt-3"
+              className="form-control my-5"
               name="message"
               placeholder="Write your nessage here"
             ></textarea>

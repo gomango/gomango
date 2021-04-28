@@ -1,11 +1,10 @@
 import React from "react";
 
-import Header from "./header";
-import HomeReel from "./homeReel";
-import Services from "./services";
-import Portfolio from "./portfolio";
-
-import About from "./about";
+import Header from "./home-page/header";
+import HomeReel from "./home-page/homeReel";
+import Services from "./home-page/services";
+import Portfolio from "./home-page/portfolio";
+import About from "./home-page/about";
 
 function Home() {
   return (

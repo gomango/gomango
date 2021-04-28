@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
 import { photos } from "./media-links/photos";
 
+import SectionTitle from "./sectionTitle";
+
 function PhotoPortfolio() {
   // if toggler is updated when lightbox is closed it will open it
   // if toggler is updated when lightbox is opened it will close it
@@ -10,6 +12,7 @@ function PhotoPortfolio() {
   return (
     <>
       <div className="container">
+        <SectionTitle title={"Weddings | Love Stories | Elopements"} />
         <div className="row">
           {photos.map((photo) => (
             <div className="col-sm-3 my-3">

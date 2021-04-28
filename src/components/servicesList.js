@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
 import SectionTitle from "./sectionTitle";
 
 function ServicesList() {
@@ -10,7 +9,7 @@ function ServicesList() {
         <div className="col my-5">
           <p>Our wide range of services includes following: </p>
 
-          <ul className='mb-5'>
+          <ul className="mb-5">
             <li>Full coverage of your event</li>
             <li>Videographers</li>
             <li>Photographers</li>
@@ -20,7 +19,7 @@ function ServicesList() {
         </div>
         <div className="col my-5">
           <p>Depending on the package you will receive: </p>
-          <ul className='mb-5'>
+          <ul className="mb-5">
             <li>Short promo video</li>
             <li>Video highlights</li>
             <li>Retouched photos</li>
@@ -29,12 +28,7 @@ function ServicesList() {
             <li>RAW version</li>
           </ul>
         </div>
-    <div className='row'></div>
       </div>
-      {/* If you would like to learn more please
-      <span>
-        <Link to="/contactus"> CONTACT US</Link>
-      </span> */}
     </div>
   );
 }

@@ -1,0 +1,22 @@
+export const videos = [
+  {
+    src:
+      "https://player.vimeo.com/video/504626099?color=ffffff&title=0&byline=0",
+  },
+  {
+    src:
+      "https://player.vimeo.com/video/511190836?color=ffffff&title=0&byline=0",
+  },
+  {
+    src:
+      "https://player.vimeo.com/video/525867469?color=ffffff&title=0&byline=0",
+  },
+  {
+    src:
+      "https://player.vimeo.com/video/525889795?color=ffffff&title=0&byline=0",
+  },
+  {
+    src:
+      "https://player.vimeo.com/video/522120572?color=ffffff&title=0&byline=0",
+  },
+];
