@@ -1,7 +1,7 @@
 export const videos = [
   {
     src:
-      "https://player.vimeo.com/video/511192172?color=ffffff&title=0&byline=0",
+      "https://player.vimeo.com/video/560005866?color=ffffff&title=0&byline=0",
   },
   {
     src:
@@ -19,7 +19,3 @@ export const videos = [
     src:
       "https://player.vimeo.com/video/505056584?color=ffffff&title=0&byline=0",
   },
-];
-{
-    src:
-      "https://player.vimeo.com/video/560005866?color=ffffff&title=0&byline=0",
