@@ -19,3 +19,4 @@ export const videos = [
     src:
       "https://player.vimeo.com/video/505056584?color=ffffff&title=0&byline=0",
   },
+  ]
