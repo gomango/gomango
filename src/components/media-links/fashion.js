@@ -5,6 +5,10 @@ export const videos = [
   },
   {
     src:
+      "https://player.vimeo.com/video/569540262?color=ffffff&title=0&byline=0",
+  },
+  {
+    src:
       "https://player.vimeo.com/video/511190836?color=ffffff&title=0&byline=0",
   },
   {
