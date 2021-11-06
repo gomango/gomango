@@ -13,7 +13,7 @@ export const videos = [
   },
   {
     src:
-      "https://player.vimeo.com/video/525867469?color=ffffff&title=0&byline=0",
+      "https://player.vimeo.com/video/642920619?color=ffffff&title=0&byline=0",
   },
   {
     src:
