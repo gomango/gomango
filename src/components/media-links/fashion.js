@@ -27,4 +27,8 @@ export const videos = [
     src:
       "https://player.vimeo.com/video/566918360?color=ffffff&title=0&byline=0",
   },
+  {
+    src:
+      "https://player.vimeo.com/video/525867469?color=ffffff&title=0&byline=0",
+  },
 ];
