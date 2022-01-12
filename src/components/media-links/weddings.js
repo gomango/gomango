@@ -5,12 +5,17 @@ export const videos = [
   },
   {
     src:
-      "https://player.vimeo.com/video/508258604?color=ffffff&title=0&byline=0",
+      "https://player.vimeo.com/video/595962125?color=ffffff&title=0&byline=0",
   },
   {
     src:
-      "https://player.vimeo.com/video/595962125?color=ffffff&title=0&byline=0",
+      "https://player.vimeo.com/video/661773243?color=ffffff&title=0&byline=0",
   },
+  {
+    src:
+      "https://player.vimeo.com/video/508258604?color=ffffff&title=0&byline=0",
+  },
+  
   {
     src:
       "https://player.vimeo.com/video/509971080?color=ffffff&title=0&byline=0",
