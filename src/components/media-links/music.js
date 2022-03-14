@@ -1,7 +1,7 @@
 export const videos = [
   {
     src:
-      "https://player.vimeo.com/showcase/9358435/video/687780301,
+      "https://player.vimeo.com/video/687780301?color=ffffff&title=0&byline=0",
   },
   {
     src:
