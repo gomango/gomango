@@ -8,7 +8,7 @@ function HomeReel() {
       <div className="row justify-content-center ">
         <div className="embed-responsive embed-responsive-16by9 mx-1">
           <iframe
-            src="https://player.vimeo.com/video/531407800"
+            src="https://player.vimeo.com/video/718157573"
             title="test"
             frameborder="0"
             fluid={false}
