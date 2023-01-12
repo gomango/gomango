@@ -67,7 +67,7 @@ function ContactUs() {
           gomango.studio@gmail.com
           <div className="row contact-icons  mt-3 ">
             <a
-              href="https://www.instagram.com/anatoly_kuteliya/"
+              href="https://www.instagram.com/gomango.studio/"
               target="_blank"
               rel="noreferrer"
               className="mx-3"
