@@ -12,13 +12,6 @@ export const weddingVideos = [
     alt: "mohamed_nada",
   },
   {
-    video: "https://vimeo.com/763623635",
-    poster: "screenshots/weddings/july_anniversary.JPG",
-    sub: "<p>Wedding.</p>",
-    alt: "Wedding Anniversary",
-  },
-  
-  {
     video: "https://vimeo.com/595962125",
     poster: "screenshots/weddings/pascual_elizabeth.JPG",
     sub: "<p>Wedding.</p>",
