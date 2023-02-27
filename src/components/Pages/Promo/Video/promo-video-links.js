@@ -1,10 +1,5 @@
 export const promoVideos = [
-  {
-    video: "https://vimeo.com/763623635",
-    poster: "screenshots/promo/july_anniversary.JPG",
-    sub: "<p>Promo.</p>",
-    alt: "july_anniversary",
-  },
+  
   {
     video: "https://vimeo.com/718690456",
     poster: "screenshots/promo/groove_cruise.JPG",
@@ -70,5 +65,11 @@ export const promoVideos = [
     poster: "screenshots/promo/purple_yam.JPG",
     sub: "<p>Promo.</p>",
     alt: "purple_yam",
+  },
+  {
+    video: "https://vimeo.com/763623635",
+    poster: "screenshots/promo/july_anniversary.JPG",
+    sub: "<p>Promo.</p>",
+    alt: "july_anniversary",
   },
 ];
