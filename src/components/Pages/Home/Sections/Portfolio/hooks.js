@@ -26,7 +26,7 @@ const sections = [
     title: "Fasion",
     subTitle: "Video Production",
     text: " Check our Fashion page to see how we create a unique experience that elevates brands and apparel above the competition.",
-    link: "/weddings",
+    link: "/fashion",
     btnTitle: "FASHION",
     imgUrl: "../home-page-photo/fashion.jpg",
     alt: "fashion",

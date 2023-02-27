@@ -7,7 +7,7 @@ import { useComponentLogic } from "./hooks";
 
 const title = "Let's make it happen";
 const text =
-  "Tell us about you too! How did you meet and fall in love? What do you like about our films? Any other infromation you would like to share.";
+  "Tell us about you two! How did you meet and fall in love? What do you like about our films? Any other infromation you would like to share.";
 
 const Weddings = () => {
   const { handlePhoto, handleVideo, isPhoto } = useComponentLogic();
@@ -23,7 +23,7 @@ const Weddings = () => {
             The team at GoManGo.Studio pride ourselves on delivering the highest
             quality of moments when it comes to wedding videography! We have the
             unique experience of being able to transport you back in time to
-            your wedding day in a funny and unique way. We specialize in
+            your wedding day in a humorous and unique way. We specialize in
             creating the most entertaining videos that will make the whole
             family laugh and cherish those special moments. With us, your
             wedding will be one to remember in a whole new light!
