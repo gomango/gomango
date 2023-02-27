@@ -8,7 +8,7 @@ export const promoVideos = [
   {
     video: "https://vimeo.com/718690456",
     poster: "screenshots/promo/groove_cruise.JPG",
-    sub: "<p>Promo.</p>",
+    sub: "<p>Collection of handmade accessories.</p>",
     alt: "groove_cruise",
   },
   {
