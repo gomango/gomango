@@ -6,6 +6,12 @@ export const fashionVideos = [
     alt: "cat_woman",
   },
   {
+    video: "https://vimeo.com/761292269",
+    poster: "screenshots/fashion/noah.JPG",
+    sub: "<p>Fashion.</p>",
+    alt: "noah",
+  },
+  {
     video: "https://vimeo.com/716259860",
     poster: "screenshots/fashion/alberto_makali_fall_collection.JPG",
     sub: "<p>Fashion.</p>",
@@ -16,6 +22,17 @@ export const fashionVideos = [
     poster: "screenshots/fashion/alberto_makali_lilia.JPG",
     sub: "<p>Fashion.</p>",
     alt: "alberto_makali_lilia",
+    {
+    video: "https://vimeo.com/531407800",
+    poster: "screenshots/fashion/spring_is_coming.JPG",
+    sub: "<p>Fashion.</p>",
+    alt: "spring_is_coming",
+  },
+  {
+    video: "https://vimeo.com/569540262",
+    poster: "screenshots/fashion/surfing.JPG",
+    sub: "<p>Fashion.</p>",
+    alt: "surfing",
   },
   {
     video: "https://vimeo.com/504626099",
@@ -41,30 +58,15 @@ export const fashionVideos = [
     sub: "<p>Fashion.</p>",
     alt: "masha_macys",
   },
-  {
-    video: "https://vimeo.com/761292269",
-    poster: "screenshots/fashion/noah.JPG",
-    sub: "<p>Fashion.</p>",
-    alt: "noah",
-  },
+  
   {
     video: "https://vimeo.com/566918360",
     poster: "screenshots/fashion/rainy_day.JPG",
     sub: "<p>Fashion.</p>",
     alt: "rainy_day",
   },
-  {
-    video: "https://vimeo.com/531407800",
-    poster: "screenshots/fashion/spring_is_coming.JPG",
-    sub: "<p>Fashion.</p>",
-    alt: "spring_is_coming",
-  },
-  {
-    video: "https://vimeo.com/569540262",
-    poster: "screenshots/fashion/surfing.JPG",
-    sub: "<p>Fashion.</p>",
-    alt: "surfing",
-  },
+  
+  
   {
     video: "https://vimeo.com/525867469",
     poster: "screenshots/fashion/walk_NYC.JPG",
