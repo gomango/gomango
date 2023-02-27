@@ -6,11 +6,23 @@ export const promoVideos = [
     alt: "july_anniversary",
   },
   {
+    video: "https://vimeo.com/718690456",
+    poster: "screenshots/promo/groove_cruise.JPG",
+    sub: "<p>Promo.</p>",
+    alt: "groove_cruise",
+  },
+  {
+    video: "https://vimeo.com/661682931",
+    poster: "screenshots/promo/handmade_collection.JPG",
+    sub: "<p>Promo.</p>",
+    alt: "handmade_collection",
+  },
+  {
     video: "https://vimeo.com/761274084",
     poster: "screenshots/promo/anastasia_bday.JPG",
     sub: "<p>Promo.</p>",
     alt: "anastasia_bday",
-  },
+  }, 
   {
     video: "https://vimeo.com/521882226",
     poster: "screenshots/promo/burning_man_2.JPG",
@@ -28,18 +40,6 @@ export const promoVideos = [
     poster: "screenshots/promo/elegant_barbershop.JPG",
     sub: "<p>Promo.</p>",
     alt: "elegant_barbershop",
-  },
-  {
-    video: "https://vimeo.com/718690456",
-    poster: "screenshots/promo/groove_cruise.JPG",
-    sub: "<p>Promo.</p>",
-    alt: "groove_cruise",
-  },
-  {
-    video: "https://vimeo.com/661682931",
-    poster: "screenshots/promo/handmade_collection.JPG",
-    sub: "<p>Promo.</p>",
-    alt: "handmade_collection",
   },
   {
     video: "https://vimeo.com/522111836",
