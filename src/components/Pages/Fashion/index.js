@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderSection from "../../HeaderSection";
 import Video from "./Video";
-import fashion from "../Fashion/fashion.mp4";
+import fashion from "../Fashion/new-fashion.mp4";
 
 const title = "To all Fashionistas";
 const text =
