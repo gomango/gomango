@@ -16,7 +16,7 @@ const Home = () => {
             services! We have all the bells and whistles to capture cinematic
             weddings, edgy fashion films, dynamic music clips, and any branding
             promotional videos you have in mind. Leave a lasting impression and
-            create treasured memories… with video production services from us!
+            create treasured memories with video production services from us!
           </p>
         </div>
       </div>
