@@ -1,8 +1,431 @@
 .App {
-  font-family: "Poppins", sans-serif;
-
+  font-family: "Quattrocento", serif;
   background-color: #f5f5f5;
   color: #0f1626;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.item-row:nth-child(2n) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.description-text {
+  max-width: 500px;
+  margin-left: 100px;
+  margin: 25px;
+}
+
+.description-text-left {
+  max-width: 500px;
+  margin-right: 100px;
+}
+
+.description-text h2 {
+  margin-bottom: 25px;
+}
+
+.nav-button-description {
+  display: flex;
+  justify-content: end;
+}
+/* ---------> PORTFOLIO PAGE */
+.subcategory-title {
+  font-style: italic;
+  font-size: 18px;
+}
+
+/* _____________________________ */
+
+/* ---------> ABOUT PAGE */
+
+.container-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.about-description {
+  display: flex;
+  line-height: 1.8;
+}
+.grand-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  line-height: 2rem;
+}
+
+.about-us-container p {
+  padding-left: 20px;
+  font-size: 20px;
+}
+.about-us-title {
+  font-size: 6rem;
+}
+.section-photo {
+  width: 800px;
+}
+/* _____________________________ */
+
+/* ---------> CONTACT US FORM */
+.wedding-contact-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-container .form-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.form-container .info-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.form-container .info-row input {
+  width: 45%;
+  border-radius: 0;
+  background-color: #e8e8e8;
+  border: none;
+  color: #989898;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-container textarea {
+  border-radius: 0;
+  background-color: #e8e8e8;
+  border: none;
+  color: #989898;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-button {
+  display: flex;
+  justify-content: end;
+}
+
+.wedding-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.wedding-description p {
+  display: flex;
+  width: 60%;
+  padding: 50px 0;
+}
+
+.video-photo-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+button {
+  color: #090909;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  background: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+button i {
+  color: black;
+  padding-right: 10px;
+}
+.styled-video-button:hover {
+  border: 1px solid white;
+}
+
+.styled-video-button:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+}
+
+/* _____________________________ */
+
+/* ---------> WEDDING PAGE */
+
+.parent-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video-grid img {
+  margin: 20px 0;
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+}
+
+.video-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 75px;
+}
+
+.wedding-grid {
+  display: flex;
+  justify-content: center;
+}
+
+/* _____________________________ */
+
+/* ---------> FOOTER */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 5px solid black;
+  margin: 0 25px 0 25px;
+}
+.footer .logo-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.media-links {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+}
+
+.media-links i {
+  margin-right: 20px;
+  color: black;
+}
+
+.footer-logo {
+  height: 100px;
+}
+
+.footer-nav h2 {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.footer-nav a:hover {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+/* _____________________________ */
+
+/* ---------> FOOTER */
+
+.promo-page {
+  display: flex;
+  flex-direction: column;
+}
+.promo-page .promo-header-image {
+  /* Add the blur effect */
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+
+  /* Full height */
+  height: 50vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video-grid {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.video-grid img {
+  width: 500px;
+  padding-right: 50px;
+}
+/* _____________________________ */
+
+.hero {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+}
+
+.videoTag {
+  object-fit: cover;
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background: transparent;
+  /* background-color: black; */
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transition: 0.3s ease-in;
+  overflow: hidden;
+}
+
+.header-bg {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.header ul {
+  list-style-type: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  margin: auto;
+  padding: 0 1rem;
+  z-index: 100;
+}
+
+.header .nav-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.header .navbar img {
+  height: 50px;
+}
+
+.header .nav-menu {
+  display: flex;
+}
+
+.header .nav-item {
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.header .nav-item a:hover {
+  padding-bottom: 12px;
+  border-bottom: 3px solid var(--secondary-color);
+  z-index: 100;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 940px) {
+  .form-container .info-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0;
+  }
+  .item-row:nth-child(2n) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-container .info-row input {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .header {
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 1rem 0;
+    height: 100px;
+  }
+
+  .header .navbar {
+    max-width: 100%;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 90px;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 90vh;
+    z-index: 999;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 1.5rem 0;
+  }
 }
 
 .display-4 {
@@ -16,19 +439,27 @@ i {
 }
 
 .background-image {
-  height: 90vh;
+  height: 80vh;
+  width: 100%;
   background-attachment: static;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
+header {
+  background: black;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
 
-  border-bottom: solid 1px #1d1952;
+.background-image {
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
 }
 
 h2 {
@@ -36,52 +467,54 @@ h2 {
   font-weight: 600;
   font-size: 16px;
 }
+button {
+  margin: 1rem;
+}
 
-.nav-link {
-  color: #0f1626;
-  font-family: "Poppins", sans-serif;
+.button {
+  background-color: var(--background-color);
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   font-weight: 600;
-  font-size: 25px;
-}
-
-.nav-link:hover {
-  border-bottom: solid 5px #ab987a;
-  color: #0f1626;
-}
-
-.logo {
-  width: 250px;
-}
-
-.footer {
-  background-color: #0f1626;
-  color: #f5f5f5;
-}
-
-.hero-image {
-  background-image: url("./images/DSC_0771\ copy.JPG");
-  background-color: #cccccc;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  font-size: 20px;
+  padding: 0.5em 1em;
+  outline: none;
   position: relative;
+  cursor: pointer;
+  border: 2px solid black;
+
+  --background-color: white;
+  --border-size: 2px;
+  --accent-color: black;
 }
 
-a:hover {
-  text-decoration: underline;
+.button.btn-background-slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-color: var(--accent-color);
+
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
 }
 
-.link-pages {
-  color: #3f3f3f;
+.button.btn-background-slide:hover::before,
+.button.btn-background-slide:focus::before {
+  transform: scaleX(1);
 }
 
-.link-pages:hover {
-  border-bottom: solid 5px #051747;
-  color: #3f3f3f;
-  text-decoration: none;
+.button.btn-background-slide {
+  transition: color 300ms ease-in-out;
+  z-index: 1;
 }
 
-#link {
-  color: black;
+.button.btn-background-slide:hover,
+.button.btn-background-slide:focus {
+  color: white;
 }
