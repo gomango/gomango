@@ -1,28 +1,29 @@
 import "./App.css";
 import React from "react";
-import Footer from "./components/footer";
-import Nav from "./components/nav";
-import ServicesList from "./components/servicesList";
-import VideoPortfolio from "./components/video-portfolio/videoPortfolio";
-import Home from "./components/home";
-import Contact from "./components/contact";
-import PhotoPortfolio from "./components/photoPortfolio";
-
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
+import Contact from "./components/Pages/Contact";
+import Fashion from "./components/Pages/Fashion";
+import Music from "./components/Pages/Music";
+import Promo from "./components/Pages/Promo";
+import Weddings from "./components/Pages/Weddings";
+import Home from "./components/Pages/Home";
+import Footer from "./components/Footer";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <Nav />
+      <div>
+        <Navigation />
       </div>
 
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/video" component={VideoPortfolio} />
-        <Route exact path="/photo" component={PhotoPortfolio} />
-        <Route exact path="/services" component={ServicesList} />
-        <Route exact path="/contactus" component={Contact} />
+        <Route exact path="/promo" component={Promo} />
+        <Route exact path="/weddings" component={Weddings} />
+        <Route exact path="/fashion" component={Fashion} />
+        <Route exact path="/music" component={Music} />
+        <Route exact path="/contact" component={Contact} />
       </Switch>
 
       <Footer />
