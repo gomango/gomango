@@ -13,9 +13,12 @@ const Weddings = () => {
   const { handlePhoto, handleVideo, isPhoto } = useComponentLogic();
   return (
     <div>
-      <video className="videoTag" autoPlay loop muted>
-        <source src={wedding} type="video/mp4" muted={true} loop={true} />
-      </video>
+      <div className="hero">
+        <video className="videoTag" autoPlay loop muted>
+          <source src={wedding} type="video/mp4" muted={true} loop={true} />
+        </video>
+      </div>
+
       <div className="grand-container">
         <div className="about-us-container">
           <h1>Let's tell your story together</h1>

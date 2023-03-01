@@ -10,9 +10,12 @@ const text =
 const Promo = () => {
   return (
     <div>
-      <video className="videoTag" autoPlay loop muted>
-        <source src={promo} type="video/mp4" muted={true} loop={true} />
-      </video>
+      <div className="hero">
+        <video className="videoTag" autoPlay loop muted>
+          <source src={promo} type="video/mp4" muted={true} loop={true} />
+        </video>
+      </div>
+
       <div className="grand-container">
         <HeaderSection title={title} text={text} />
       </div>
