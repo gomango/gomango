@@ -22,7 +22,8 @@ export const fashionVideos = [
     poster: "screenshots/fashion/alberto_makali_lilia.JPG",
     sub: "<p>Fashion.</p>",
     alt: "alberto_makali_lilia",
-    {
+  },
+  {
     video: "https://vimeo.com/531407800",
     poster: "screenshots/fashion/spring_is_coming.JPG",
     sub: "<p>Fashion.</p>",
@@ -58,15 +59,14 @@ export const fashionVideos = [
     sub: "<p>Fashion.</p>",
     alt: "masha_macys",
   },
-  
+
   {
     video: "https://vimeo.com/566918360",
     poster: "screenshots/fashion/rainy_day.JPG",
     sub: "<p>Fashion.</p>",
     alt: "rainy_day",
   },
-  
-  
+
   {
     video: "https://vimeo.com/525867469",
     poster: "screenshots/fashion/walk_NYC.JPG",
