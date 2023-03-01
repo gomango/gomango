@@ -375,6 +375,23 @@ button i {
     flex-direction: column;
   }
 
+  .hero {
+    height: fit-content;
+  }
+
+  .hero .videoTag {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .about-us-container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
   .item-row {
     display: flex;
     flex-direction: column;
