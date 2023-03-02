@@ -23,7 +23,7 @@ const sections = [
   },
   {
     id: 3,
-    title: "Fasion",
+    title: "Fashion",
     subTitle: "Video Production",
     text: " Check our Fashion page to see how we create a unique experience that elevates brands and apparel above the competition.",
     link: "/fashion",
