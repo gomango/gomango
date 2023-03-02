@@ -23,7 +23,7 @@ export const promoVideos = [
   {
     video: "https://vimeo.com/518204466",
     poster: "screenshots/promo/how_to_be_wow.JPG",
-    sub: "<p>Highlights from "How to be WOW" presentation.</p>",
+    sub: "<p>Highlights from How to be WOW presentation.</p>",
     alt: "how_to_be_wow",
   },
   
