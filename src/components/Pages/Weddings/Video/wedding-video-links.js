@@ -6,6 +6,12 @@ export const weddingVideos = [
     alt: "michele_katy",
   },
   {
+    video: "https://vimeo.com/810997017",
+    poster: "screenshots/weddings/Andrey and Amy.JPG",
+    sub: "<p>Wedding.</p>",
+    alt: "Andrey and Amy",
+  },
+  {
     video: "https://vimeo.com/79614495",
     poster: "screenshots/weddings/mohamed_nada.JPG",
     sub: "<p>Wedding.</p>",
