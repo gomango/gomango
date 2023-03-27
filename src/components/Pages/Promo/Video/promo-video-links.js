@@ -50,7 +50,7 @@ export const promoVideos = [
   {
     video: "https://vimeo.com/522111836",
     poster: "screenshots/promo/holi.JPG",
-    sub: "<p>Promo.</p>",
+    sub: "<p>Promo for Holi Festival_NYC.</p>",
     alt: "holi",
   },
   
