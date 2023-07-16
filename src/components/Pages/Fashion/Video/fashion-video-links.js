@@ -1,5 +1,11 @@
 export const fashionVideos = [
   {
+    video: "https://vimeo.com/845600101",
+    poster: "screenshots/fashion/Fashion Reel.JPG",
+    sub: "<p>Fashion.</p>",
+    alt: "Fashion Reel",
+  },
+  {
     video: "https://vimeo.com/778730348",
     poster: "screenshots/fashion/cat_woman.JPG",
     sub: "<p>Fashion.</p>",
@@ -9,7 +15,13 @@ export const fashionVideos = [
     video: "https://vimeo.com/761292269",
     poster: "screenshots/fashion/noah.JPG",
     sub: "<p>Fashion.</p>",
-    alt: "noah",
+    alt: "FENDI Promo",
+  },
+  {
+    video: "https://vimeo.com/845738527",
+    poster: "screenshots/fashion/NY Street Voyage.JPG",
+    sub: "<p>Fashion.</p>",
+    alt: "NY Street Voyage",
   },
   {
     video: "https://vimeo.com/716259860",
