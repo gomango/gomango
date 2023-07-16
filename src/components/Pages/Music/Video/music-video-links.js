@@ -1,5 +1,11 @@
 export const musicVideos = [
   {
+    video: "https://vimeo.com/845743357",
+    poster: "screenshots/music/RED LION.JPG",
+    sub: "<p>Music.</p>",
+    alt: "RED LION",
+  },
+  {
     video: "https://vimeo.com/687780301",
     poster: "screenshots/music/che.JPG",
     sub: "<p>Music.</p>",
