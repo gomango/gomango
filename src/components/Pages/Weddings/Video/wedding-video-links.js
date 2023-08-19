@@ -1,7 +1,7 @@
 export const weddingVideos = [
  {
     video: "https://vimeo.com/855883148",
-    poster: "screenshots/weddings/Dillon and Katerina1.JPG",
+    poster: "screenshots/weddings/Anton and Aniuta.JPG",
     sub: "<p>Wedding.</p>",
     alt: "Anton and Aniuta",
   },
