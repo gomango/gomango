@@ -1,5 +1,11 @@
 export const fashionVideos = [
   {
+    video: "https://vimeo.com/861850338",
+    poster: "screenshots/fashion/NYFW_2023.JPG",
+    sub: "<p>Fashion.</p>",
+    alt: "Fashion Reel",
+  },
+  {
     video: "https://vimeo.com/845600101",
     poster: "screenshots/fashion/Fashion Reel.JPG",
     sub: "<p>Fashion.</p>",
