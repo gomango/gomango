@@ -5,6 +5,12 @@ export const promoVideos = [
     sub: "<p> Short promo clip.</p>",
     alt: "Titans",
   },
+ {
+  video: "https://vimeo.com/893563227",
+    poster: "screenshots/promo/Lighting at Ridge Hill.JPG",
+    sub: "<p> Short promo clip.</p>",
+    alt: "Lighting at Ridge Hill",
+  },
   {   
     video: "https://vimeo.com/840275830",
     poster: "screenshots/promo/Spring in NY.JPG",
