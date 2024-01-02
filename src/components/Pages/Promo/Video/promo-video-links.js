@@ -3,7 +3,7 @@ export const promoVideos = [
   video: "https://vimeo.com/899260292",
     poster: "screenshots/promo/Titans.JPG",
     sub: "<p> Short promo clip.</p>",
-    alt: "Titans",
+    alt: "Outsy",
   },
  {
   video: "https://vimeo.com/889484363",
