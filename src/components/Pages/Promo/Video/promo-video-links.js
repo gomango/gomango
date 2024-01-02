@@ -2,7 +2,7 @@ export const promoVideos = [
 {
   video: "https://vimeo.com/899260292",
     poster: "screenshots/promo/Outsy.JPG",
-    sub: "<p> Short promo clip.</p>",
+    sub: "<p> Outsy- outdoor furniture.</p>",
     alt: "Outsy",
   },
  {
