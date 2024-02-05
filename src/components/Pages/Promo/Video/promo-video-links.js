@@ -1,4 +1,10 @@
 export const promoVideos = [
+  {
+  video: "https://vimeo.com/909886537",
+    poster: "screenshots/promo/Stefaniya.JPG",
+    sub: "<p> Stefaniya.</p>",
+    alt: "Stefaniya",
+  },
 {
   video: "https://vimeo.com/899260292",
     poster: "screenshots/promo/Outsy.JPG",
