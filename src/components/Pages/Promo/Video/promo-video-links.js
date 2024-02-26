@@ -17,12 +17,6 @@ export const promoVideos = [
     sub: "<p> Short promo clip.</p>",
     alt: "Titans",
   },
- {
-  video: "https://vimeo.com/893563227",
-    poster: "screenshots/promo/Lighting at Ridge Hill.JPG",
-    sub: "<p> Short promo clip.</p>",
-    alt: "Lighting at Ridge Hill",
-  },
   {   
     video: "https://vimeo.com/840275830",
     poster: "screenshots/promo/Spring in NY.JPG",
@@ -49,10 +43,10 @@ export const promoVideos = [
   },
   
   {
-    video: "https://vimeo.com/538210261",
-    poster: "screenshots/promo/elegant_barbershop.JPG",
-    sub: "<p>Promo.</p>",
-    alt: "elegant_barbershop",
+  video: "https://vimeo.com/893563227",
+    poster: "screenshots/promo/Lighting at Ridge Hill.JPG",
+    sub: "<p> Short promo clip.</p>",
+    alt: "Lighting at Ridge Hill",
   },
   
 ];
