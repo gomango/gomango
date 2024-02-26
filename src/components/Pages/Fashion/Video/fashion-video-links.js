@@ -47,12 +47,7 @@ export const fashionVideos = [
     sub: "<p>Fashion.</p>",
     alt: "spring_is_coming",
   },
-  {
-    video: "https://vimeo.com/569540262",
-    poster: "screenshots/fashion/surfing.JPG",
-    sub: "<p>Fashion.</p>",
-    alt: "surfing",
-  },
+
   {
     video: "https://vimeo.com/504626099",
     poster: "screenshots/fashion/fashion_walk_2021.JPG",
@@ -71,13 +66,6 @@ export const fashionVideos = [
     sub: "<p>Fashion.</p>",
     alt: "kate_subway",
   },
-  {
-    video: "https://vimeo.com/522120572",
-    poster: "screenshots/fashion/masha_macys.JPG",
-    sub: "<p>Fashion.</p>",
-    alt: "masha_macys",
-  },
-
   {
     video: "https://vimeo.com/566918360",
     poster: "screenshots/fashion/rainy_day.JPG",
