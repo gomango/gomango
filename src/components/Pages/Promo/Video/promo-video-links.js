@@ -1,5 +1,11 @@
 export const promoVideos = [
   {
+  video: "https://vimeo.com/1057957955",
+    poster: "screenshots/promo/Hair Salon.JPG",
+    sub: "<p> Hair Salon.</p>",
+    alt: "Promo for Hair extension",
+  },
+  {
   video: "https://vimeo.com/909886537",
     poster: "screenshots/promo/Stefaniya.JPG",
     sub: "<p> Stefaniya.</p>",
